@@ -32,3 +32,5 @@ A list of internal milestones up until project Milestone 3.
 
 ## Questions for TAs
 (optional) Add here any questions you have for us related to the proposed project.
+
+![alt text](https://github.com/epfl-ada/ada-2021-project-bsbv/blob/master/pipeline.jpg?raw=true)
