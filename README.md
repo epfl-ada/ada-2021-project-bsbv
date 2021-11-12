@@ -5,7 +5,7 @@ A 150 word description of the project idea and goals. What’s the motivation be
 What story would you like to tell, and why?
 
 #### Table of Contents
-- [Research Questions](#research-questions)  
+- [Research Questions](#research-questions)
 - [Proposed additional datasets](#proposed-additional-datasets)
 - [Methods](#methods)
 - [Proposed timeline](#proposed-timeline)
