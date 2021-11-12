@@ -9,7 +9,7 @@ Nowadays Climate Change is a hot topic in many discussions and the concern about
 - [Proposed additional datasets](#proposed-additional-datasets)
 - [Methods](#methods)
 - [Proposed timeline](#proposed-timeline)
-- [Organization within the team](#organization-within-the-team)ç
+- [Organization within the team](#organization-within-the-team)
 
 
 ## Research Questions
@@ -82,7 +82,7 @@ At this step, three different analyses will be performed in parallel:
 - Media source analysis: research on the different newspapers and political parties. Analysis will focus on which speakers are more quoted by newspapers. 
 - Time series analysis: interpret the distribution of the number of quotes through the years. Search main periods where climate change was a hot topic, to find which events triggered it.
 
-Finally, we will join all the information we have achieved and do final statistical analysis to characterize the climate quotations in the news. Finally, we will try as much as possible to answer research questions.  
+We will join all the information we have achieved and do final statistical analysis to characterize the climate quotations in the news. Finally, we will try as much as possible to answer research questions.  
 
 
 ## Organization within the team
