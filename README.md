@@ -76,6 +76,15 @@ The first big analysis will rely on the embedding. Using the embedding we calcul
 
 Additionally, the data will be cleaned by extracting the quotes containing words from the glossary and selecting only the ones that are most related to climate change using the c.c score. For M3 we will use a better climate change text extraction method by using climatebert, a recent transformer model that has been shown to successfully extract climate related text. We will get it from https://huggingface.co/climatebert/distilroberta-base-climate-f. 
 
+At this step, three different analyses will be performed in parallel:
+
+- Speakers’ analysis: Join features extracted from wikidata from speakers' quotes.  Main investigation will consist in evaluating frequency of speakers’ occupation and top frequent speakers from c.c. topic. Additionally, a features’ study  related to those speakers (measure uncertainty; relation between features like correlation, linear regression, ...)
+- Media source analysis: research on the different newspapers and political parties. Analysis will focus on which speakers are more quoted by newspapers. 
+- Time series analysis: interpret the distribution of the number of quotes through the years. Search main periods where climate change was a hot topic, to find which events triggered it.
+
+Finally, we will join all the information we have achieved and do final statistical analysis to characterize the climate quotations in the news. Finally, we will try as much as possible to answer research questions.  
+
+
 ## Organization within the team
 As there are 4 independent (refer to the pipeline scheme) main analysis every member will take one. 
 Once those steps realized we will divide between ourself: 
