@@ -67,7 +67,6 @@ For the final version we will use the whole dataset and use word2vecf. A neural 
 ## Proposed timeline
 Proposed timeline
 ![Alt text](./pipeline.png?raw=true)
-![alt text](https://ibb.co/HH3pw75)
 
 ## Organization within the team
 As there are 4 independent (refer to the pipeline scheme) main analysis every member will take one. 
