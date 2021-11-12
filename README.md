@@ -65,8 +65,20 @@ For the final version we will use the whole dataset and use word2vecf. A neural 
 
 
 ## Proposed timeline
-Proposed timeline
+The pipeline for the Milestone 3 will be the following:
+
 ![Alt text](./pipeline.png?raw=true)
+
+For M2 we decided to not work with the entire dataset but instead work with a sample. This will help effectively build out the pipelines and test our ideas. To do this we first sampled 1.5% of the rows from each year to define our dataset. This totaled to almost 2 million quotes.
+
+Once the sample is obtained, it will pass an initial analysis. This inquiry describes the data,  drops missing values and visualizes the distributions (count of speakers, count of quote’s occurrences) in order to have a homogenized dataset. Also it will search correlations between features, for example between speakers and media sources. 
+
+The first big analysis will rely on the embedding. Using the embedding we calculate the similarity between news sites depending on who they quote (see the methods section). We will then use the following:
+
+- Define cultural dimensions (partisan using left and right leaning news sites)
+- Project climate discussion on the dimensions. 
+
+Additionally, the data will be cleaned by extracting the quotes containing words from the glossary and selecting only the ones that are most related to climate change using the c.c score. For M3 we will use a better climate change text extraction method by using climatebert, a recent transformer model that has been shown to successfully extract climate related text. We will get it from https://huggingface.co/climatebert/distilroberta-base-climate-f. 
 
 ## Organization within the team
 As there are 4 independent (refer to the pipeline scheme) main analysis every member will take one. 
