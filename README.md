@@ -1,20 +1,16 @@
-# Milestone P2: 
-## Sensitivity evolution on climate change from English news articles between 2015 and early 2020. 
+# Sensitivity evolution on climate change from English news articles between 2015 and early 2020. 
 ---
 
-
+## Abstract
+Nowadays Climate Change is a hot topic in many discussions and the concern about the long-term alteration of temperature and typical weather patterns in certain places is increasing through the years. We believe the Quotebank datasets will allow us to analyze how the sensitivity about this topic has evolved through society. Indeed, the media are usually publishing articles that public opinion cares about. Therefore, analyzing how the media appropriate climate change topics and how politics talk about it, could give us insight about American public opinion or even how it is influenced. 
 
 #### Table of Contents
 - [Research Questions](#research-questions)  
 - [Proposed additional datasets](#proposed-additional-datasets)
 - [Methods](#methods)
 - [Proposed timeline](#proposed-timeline)
-- [Organization within the team](#organization-within-the-team)
-- [Questions for TAs](#questions-for-tas)
----
+- [Organization within the team](#organization-within-the-team)ç
 
-## Abstract
-Nowadays Climate Change is a hot topic in many discussions and the concern about the long-term alteration of temperature and typical weather patterns in certain places is increasing through the years. We believe the Quotebank datasets will allow us to analyze how the sensitivity about this topic has evolved through society. Indeed, the media are usually publishing articles that public opinion cares about. Therefore, analyzing how the media appropriate climate change topics and how politics talk about it, could give us insight about American public opinion or even how it is influenced. 
 
 ## Research Questions
 *Utilizing neural community embeddings to understand the climate discussion in the news.*
