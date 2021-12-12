@@ -63,7 +63,7 @@ For the final version we will use the whole dataset and use word2vecf. A neural 
 ## Proposed timeline
 The pipeline for the Milestone 3 will be the following:
 
-![Alt text](./pipeline.png?raw=true)
+![Alt text](figures/pipeline.png?raw=true)
 
 For M2 we decided to not work with the entire dataset but instead work with a sample. This will help effectively build out the pipelines and test our ideas. To do this we first sampled 1.5% of the rows from each year to define our dataset. This totaled to almost 2 million quotes.
 
