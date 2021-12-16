@@ -1,30 +1,35 @@
-# Sensitivity evolution on climate change from English news articles between 2015 and early 2020. 
+# Climate Change related quotes from English news articles between 2015 and early 2020. 
 ---
 
 
 ## Abstract
-Nowadays Climate Change is a hot topic in many discussions and the concern about the long-term alteration of temperature and typical weather patterns in certain places is increasing through the years. We believe the Quotebank datasets will allow us to analyze how the sensitivity about this topic has evolved through society. Indeed, the media are usually publishing articles that public opinion cares about. Therefore, analyzing how the media appropriate climate change topics and how politics talk about it, could give us insight about American public opinion or even how it is influenced. 
-
+In the last decades we observe a general increase in average temperatures of the Earth, which modifies the weather balances and ecosystems. At the pace of current CO2 emissions, scientists expect an increase of between 1.5° and 5.3°C in average temperature by 2100. If no action is taken, it would have harmful consequences to humanity and the biosphere. We thus want to create a productive awareness campaign about Climate Change. Thanks to “Quotebank ‘’ database and open accessible data, our goal is to understand how the Climate Change topic has been appropriated by society in the last 5 years. In other words, when do we talk about it, who and in which platform? This article should serve as a head start for people searching how to target the Climate Change awareness campaign.
 
 #### Table of Contents
+- [Organization of the Github](#organization-of-the-Github)  
 - [Research Questions](#research-questions)  
 - [Proposed datasets](#proposed-additional-datasets)
 - [Methods](#methods)
-- [Proposed timeline](#proposed-timeline)
 - [Organization within the team](#organization-within-the-team)
 
 ## Organization of the Github
+In the github are contained the following documents:
+	- A folder entitled "Figures" which contains the images inserted inside of our notebook. 
+    	- A folder entitled "html" which contains the html code used in our data story. 
+   	- The notebook "main.ipynb " is the notebook used for this project extension, which contains all the code used to draw our plots and produce our results.
+   	- the python script "helpers.py" contains the function used in our notebook. This function splits the check-in according to their type of venues into distinct categories.
+    	- A file entitled "climate_vecs.tsv"
+    	- A file entitled "climate_metadata.tsv"
+    
+External libraries were used in order to make interactive plots:
+	- 
 
 
 ## Research Questions
-*Utilizing neural community embeddings to understand the climate discussion in the news.*
 
-Thus the sub questions that will arise through the project:
-- How the climate change topic has evolved through the last years. 
-- Which are the main events that have raised concern in the media. 
-- Are there news channels appropriating more the subject? If yes, what political party do they support? 
-- How the climate change topic is used by different political parties.
-
+    - What were the topics and events that triggered conversation about Climate Change?
+    - Who are the main personalities driving Climate Change topic?
+    - Are there medias appropriating Climate Change subject? Is Climate Change “IN”?
 
 ## Proposed  datasets
 For the project we will use the following additional data sets from Wikidata: 
@@ -33,11 +38,11 @@ For the project we will use the following additional data sets from Wikidata:
 
     **Why?** To determine which quotes are related to climate change topics. 
 
-    **How?** Export the 161 expressions from Wikipedia climate change glossary.
+    **How?** Export expressions from Wikipedia climate change glossary.
 
-- Main features of speakers quoting climate change: age, sex, occupation, nationality, political party (if any). 
+- Main features of speakers quoting climate change:  sex, occupation, nationality, political party (if any), religion, ethnic group. 
 
-    **Why?** We aim to understand relationships (if it exists) between quotes, speakers and newspapers. 
+    **Why?** We aim to understand relationships (if it exists) between quotes, speakers and domains. 
 
     **How?** We load the data into PySpark and then join onto the limited climate change dataset from Quotebank. 
 
@@ -63,36 +68,24 @@ We attempt to put this assumption to the test by developing a neural embedding o
 
 For the final version we will use the whole dataset and use word2vecf. A neural embedding that is better able to capture semantic relationships between the entities. 
 
-
-## Proposed timeline
-The pipeline for the Milestone 3 will be the following:
-
-![Alt text](figures/pipeline.png?raw=true)
-
-For M2 we decided to not work with the entire dataset but instead work with a sample. This will help effectively build out the pipelines and test our ideas. To do this we first sampled 1.5% of the rows from each year to define our dataset. This totaled to almost 2 million quotes.
-
-Once the sample is obtained, it will pass an initial analysis. This inquiry describes the data,  drops missing values and visualizes the distributions (count of speakers, count of quote’s occurrences) in order to have a homogenized dataset. Also it will search correlations between features, for example between speakers and media sources. 
-
-The first big analysis will rely on the embedding. Using the embedding we calculate the similarity between news sites depending on who they quote (see the methods section). We will then use the following:
-
-- Define cultural dimensions (partisan using left and right leaning news sites)
-- Project climate discussion on the dimensions. 
-
-Additionally, the data will be cleaned by extracting the quotes containing words from the glossary and selecting only the ones that are most related to climate change using the c.c score. For M3 we will use a better climate change text extraction method by using climatebert, a recent transformer model that has been shown to successfully extract climate related text. We will get it from https://huggingface.co/climatebert/distilroberta-base-climate-f. 
-
-At this step, three different analyses will be performed in parallel:
-
-- Speakers’ analysis: Join features extracted from wikidata from speakers' quotes.  Main investigation will consist in evaluating frequency of speakers’ occupation and top frequent speakers from c.c. topic. Additionally, a features’ study  related to those speakers (measure uncertainty; relation between features like correlation, linear regression, ...)
-- Media source analysis: research on the different newspapers and political parties. Analysis will focus on which speakers are more quoted by newspapers. 
-- Time series analysis: interpret the distribution of the number of quotes through the years. Search main periods where climate change was a hot topic, to find which events triggered it.
-
-We will join all the information we have achieved and do final statistical analysis to characterize the climate quotations in the news. Finally, we will try as much as possible to answer research questions.  
-
-
 ## Organization within the team
 
--  Integrate all data sets. 
--  Perform statistical analysis of correlation between speakers' appearance in quotes and types of newspapers.
-- Do statistical analysis to answer research questions. 
-- Visualize the statistical observations 
-- Apply LDA to find topic of discussion
+Venia: 
+	-Loading and cleaning the data set
+	-Preprocessing the data set
+	-Latent Dirichlet Allocation (LDA) Analysis 
+	-Media Analisys
+	-Embedding 
+	
+Sandra: 
+	-Loading and cleaning the data set
+	-Time Series Analysis
+Belén:
+	-Loading and cleaning the data set
+	-Speakers Analysis
+	-Media Analisys
+	-Create the speaker persona 
+Blanche: 
+	-Figuring out how to make the template for the data story
+	-Writte the DataStory 
+	-Adding the plots
