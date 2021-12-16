@@ -14,15 +14,14 @@ In the last decades we observe a general increase in average temperatures of the
 
 ## Organization of the Github
 In the github are contained the following documents:
-	- A folder entitled "Figures" which contains the images inserted inside of our notebook. 
-    	- A folder entitled "html" which contains the html code used in our data story. 
-   	- The notebook "main.ipynb " is the notebook used for this project extension, which contains all the code used to draw our plots and produce our results.
-   	- the python script "helpers.py" contains the function used in our notebook. This function splits the check-in according to their type of venues into distinct categories.
-    	- A file entitled "climate_vecs.tsv"
-    	- A file entitled "climate_metadata.tsv"
+	* A folder entitled "Figures" which contains the images inserted inside of our notebook. 
+    	* A folder entitled "html" which contains the html code used in our data story. 
+   	* The notebook "main.ipynb " is the notebook used for this project extension, which contains all the code used to draw our plots and produce our results.
+    	* A file entitled "climate_vecs.tsv"
+    	* A file entitled "climate_metadata.tsv"
     
 External libraries were used in order to make interactive plots:
-	- 
+	*  
 
 
 ## Research Questions
