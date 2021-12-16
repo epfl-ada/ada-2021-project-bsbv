@@ -70,22 +70,22 @@ For the final version we will use the whole dataset and use word2vecf. A neural 
 
 ## Organization within the team
 
-Venia: 
-	-Loading and cleaning the data set
-	-Preprocessing the data set
-	-Latent Dirichlet Allocation (LDA) Analysis 
-	-Media Analisys
-	-Embedding 
+* Venia: 
+	* Loading and cleaning the data set
+	* Preprocessing the data set
+	* Latent Dirichlet Allocation (LDA) Analysis 
+	* Media Analisys
+	* Embedding 
 	
-Sandra: 
-	-Loading and cleaning the data set
-	-Time Series Analysis
-Belén:
-	-Loading and cleaning the data set
-	-Speakers Analysis
-	-Media Analisys
-	-Create the speaker persona 
-Blanche: 
-	-Figuring out how to make the template for the data story
-	-Writte the DataStory 
-	-Adding the plots
+* Sandra: 
+	* Loading and cleaning the data set
+	* Time Series Analysis
+* Belén:
+	* Loading and cleaning the data set
+	* Speakers Analysis
+	* Media Analisys
+	* Create the speaker persona 
+* Blanche: 
+	* Figuring out how to make the template for the data story
+	* Writte the DataStory 
+	* Adding the plots
