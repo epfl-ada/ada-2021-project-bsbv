@@ -9,6 +9,8 @@ We thus want to create a productive awareness campaign about Climate Change. Tha
 
 In other words, when do we talk about it, who and in which platform? This article should serve as a head start for people searching how to target a Climate Change awareness campaign.
 
+All the DataStory can be found in the following link: [DataStory](https://blancheberneron.github.io/GreenPeace.github.io/)
+
 #### Table of Contents
 - [Organization of the Github repository](#organization-of-the-GitHub-repository)  
 - [Research Questions](#research-questions)  
