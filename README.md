@@ -1,6 +1,10 @@
 # Climate Change related quotes from “Quotebank" database between 2015 and early 2020. 
 ---
 
+## Note:
+We use four different notebooks in our analysis. Since the embedding creation required more compute power the colab allowed, Venia used his desktop computer to build the embedding and conduct the textual analysis. The files are structured as follows
+* embedding keeps the embedding files.
+* main.ipynb has the rest. 
 
 ## Abstract
 In the last decades we observe a general increase in average temperatures of the Earth, which modifies the weather balances and ecosystems. At the pace of current CO2 emissions, scientists expect an increase of between 1.5° and 5.3°C in average temperature by 2100. If no action is taken, it would have harmful consequences to humanity and the biosphere.
