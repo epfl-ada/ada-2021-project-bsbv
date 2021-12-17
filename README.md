@@ -27,9 +27,9 @@ External libraries were used in order to make interactive plots:
 
 ## Research Questions
 
-    - What were the topics and events that triggered conversation about Climate Change?
+    - Is conversion about Climate Change constant over time?
     - Who are the main personalities driving Climate Change topic?
-    - Are there medias appropriating Climate Change subject? Is Climate Change “IN”?
+    - Are there medias appropriating more Climate Change subject? Is Climate Change “IN”?
 
 ## Proposed  datasets
 For the project we will use the following additional data sets from Wikidata: 
