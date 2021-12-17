@@ -32,10 +32,13 @@ External libraries were used in order to make interactive plots.
 
 
 ## Research Questions
-
-    - Is conversion about Climate Change constant over time?
-    - Who are the main personalities driving Climate Change topic?
-    - Are there medias appropriating more Climate Change subject? Is Climate Change “IN”?
+During this article we will answer to the following questions:
+* What were the topics and events that triggered conversation about climate change?
+* Who are the main personalities driving the climate change topic?
+* Which news sites focus most on climate change?
+       * Which news sites focus on what issues?
+* How are the issues politicized?
+* Is climate change getting more polarzied? 
 
 ## Proposed  datasets
 For the project we will use the following additional data sets from Wikidata: 
@@ -80,7 +83,7 @@ We use the whole dataset and use word2vecf. A neural embedding that is better ab
 	* Loading and cleaning the data set
 	* Preprocessing the data set
 	* Latent Dirichlet Allocation (LDA) Analysis 
-	* Media Analisys
+	* Media analysis
 	* Embedding 
 	
 * Sandra: 
