@@ -1,4 +1,4 @@
-# Climate Change related quotes from English news articles between 2015 and early 2020. 
+# Climate Change related quotes from “Quotebank" database between 2015 and early 2020. 
 ---
 
 
